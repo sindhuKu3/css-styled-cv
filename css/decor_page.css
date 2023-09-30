@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Old+Standard+TT&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Old+Standard+TT&family=Oleo+Script&display=swap');
+
+body{
+    margin:0 ;
+    text-align: center;
+}
+h1{
+color:#DFA67B ;
+font-size: 5.625rem;
+width:20% ;
+line-height: 2;
+margin: 0 auto 0 auto ;
+font-family: 'Dancing Script', cursive;
+}
+
+p{
+    font-weight: bolder;
+}
+.top-container{
+    background-color: #FFF2CC;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-pic{
+    height: 250px;
+    width: 250px;
+}
+h2{
+    color:#DFA67B ;
+    font-family: 'Oleo Script', cursive;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 40px;
+}
+
+h3{
+    color:#DFA67B ;
+    font-family: 'Oleo Script', cursive; 
+    line-height: 2;
+    font-size: 30px;
+}
+.middle-container{
+    background-color: #FFF2CC ;
+}
+ .skill-row{
+    width:50%;
+    height: 50%;
+    margin: 100px auto ;
+    text-align: left;
+    line-height: 2;
+ }
+
+ .coding{
+    width:30% ;
+    height:30% ;
+    float :left;
+    padding: 30px;
+ }
+
+ .developer{
+    width:30% ;
+    height:30% ;
+    float :right;
+    padding:30px ;
+ }
+
+ .bottom-container{
+    background-color:  #FFF2CC ;
+ }
+ hr{
+   
+    border-style: none; 
+   border-top:  5px dotted;
+   border-color: rgb(203, 206, 208);
+   height: 4px;
+   width: 100px;
+}
+
